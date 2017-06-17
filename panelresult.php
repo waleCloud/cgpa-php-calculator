@@ -5,7 +5,7 @@ session_start();
  * @copyright 2017
  */
 
-if (isset($_POST['submit']){
+if ( isset($_POST['submit'])) {
     $g1 = $_POST['g1'];
     $g2 = $_POST['g2'];
     $g3 = $_POST['g3'];
@@ -33,7 +33,7 @@ $l = $a + $b + $c + $d + $e + $f + $g + $h + $i + $j + $k;
     
     $gs1 = $g1 * $a;
     $gs2 = $g2 * $b;
-    $gs2 =  $g3 * $c;
+    $gs3 =  $g3 * $c;
     $gs4 = $g4 * $d;
     $gs5 = $g5 * $e;
     $gs6 = $g6 * $f;
